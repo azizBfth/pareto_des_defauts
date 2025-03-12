@@ -14,7 +14,7 @@ class _DefectChartState extends State<DefectChart> {
   DateTime startDate = DateTime.now().subtract(Duration(days: 30));
   DateTime endDate = DateTime.now();
   final DateFormat dateFormat = DateFormat('yyyy-MM-dd');
-  final List<Color> barColors = [Colors.blue, Colors.red, Colors.green, Colors.orange, Colors.purple, Colors.cyan];
+  final List<Color> barColors = [Colors.blue, Colors.red, Colors.green, Colors.orange, Colors.purple, Colors.cyan,Colors.yellow,Colors.teal,Colors.brown];
 
   @override
   void initState() {

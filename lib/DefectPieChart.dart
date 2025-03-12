@@ -113,7 +113,7 @@ class _DefectPieChartState extends State<DefectPieChart> {
 
   List<PieChartSectionData> _generatePieSections() {
     final colors = [
-      Colors.blue, Colors.red, Colors.green, Colors.orange, Colors.purple, Colors.cyan
+    Colors.blue, Colors.red, Colors.green, Colors.orange, Colors.purple, Colors.cyan,Colors.yellow,Colors.teal,Colors.brown
     ];
     int index = 0;
 
